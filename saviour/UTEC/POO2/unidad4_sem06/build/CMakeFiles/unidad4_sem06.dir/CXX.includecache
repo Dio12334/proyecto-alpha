@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marvin/Documents/utec/2020-1/cs1103-2.01/workspace/unidad4_sem06/src/ejercicios.h
+lib.h
+/home/marvin/Documents/utec/2020-1/cs1103-2.01/workspace/unidad4_sem06/src/lib.h
+
+/home/marvin/Documents/utec/2020-1/cs1103-2.01/workspace/unidad4_sem06/src/lib.h
+iostream
+-
+cmath
+-
+vector
+-
+deque
+-
+list
+-
+
+/home/marvin/Documents/utec/2020-1/cs1103-2.01/workspace/unidad4_sem06/src/main.cpp
+ejercicios.h
+/home/marvin/Documents/utec/2020-1/cs1103-2.01/workspace/unidad4_sem06/src/ejercicios.h
+

@@ -1,0 +1,63 @@
+#include"lib.h"
+#include"node.h"
+
+template<typename T>
+
+class GrafoND{
+  private:
+      std::vector<Node<T>*> nodes;
+  public:
+      GrafoND(){}
+
+      size_t search(Node<T>* node){
+        for(size_t i = 0; i < nodes.size(); i++)
+            if(nodes[i] == node)
+                return i;
+      }
+
+      void add_node(Node<T>* node){
+        nodes.push_back(node);
+      }
+
+      void create_edge(Node<T>* node_1, Node<T>* node_2){
+        size_t i = search(node_1); 
+        size_t j = search(node_2);
+        nodes[i]->add_edge(nodes[j]);
+        nodes[j]->add_edge(nodes[i]);
+      }
+
+      void print(){
+        for(auto node: nodes){
+          std::cout<<node->value<<" ";
+          node->print_edges();
+          std::cout<<std::endl;
+        }
+      }
+
+      void bfs(Node<T>* source){
+        size_t s = search(source);
+        bool visited[nodes.size()];
+        for(int i = 0; i < nodes.size(); i++){
+          visited[i] = false;
+        }
+        std::queue<Node<T>*> q;
+        
+        visited[s] = true;
+        q.push(nodes[s]);
+        while(!q.empty()){
+          Node<T>* u = q.front();
+          q.pop();
+          std::cout<<u->value<<" ";
+          
+          for(int v= 0; v < u->edges.size(); v++){
+            if(visited[v]== false){
+              visited[v] = true;
+              q.push(u->edges[v]);
+            }
+          }
+        }
+      }
+
+};
+
+

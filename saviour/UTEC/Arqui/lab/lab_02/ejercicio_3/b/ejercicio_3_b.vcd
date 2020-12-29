@@ -1,0 +1,296 @@
+$date
+	Tue May  5 08:08:33 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ejercicio_3_b_tb $end
+$var wire 16 ! out_8 [15:0] $end
+$var wire 16 " out_7 [15:0] $end
+$var wire 16 # out_6 [15:0] $end
+$var wire 16 $ out_5 [15:0] $end
+$var wire 16 % out_4 [15:0] $end
+$var wire 16 & out_3 [15:0] $end
+$var wire 16 ' out_2 [15:0] $end
+$var wire 16 ( out_1 [15:0] $end
+$var reg 16 ) in_1 [15:0] $end
+$var reg 1 * sel_1 $end
+$var reg 1 + sel_2 $end
+$var reg 1 , sel_3 $end
+$scope module e3_a $end
+$var wire 16 - in_1 [15:0] $end
+$var wire 1 * sel_1 $end
+$var wire 1 + sel_2 $end
+$var wire 1 , sel_3 $end
+$var wire 16 . wi_6 [15:0] $end
+$var wire 16 / wi_5 [15:0] $end
+$var wire 16 0 wi_4 [15:0] $end
+$var wire 16 1 wi_3 [15:0] $end
+$var wire 16 2 wi_2 [15:0] $end
+$var wire 16 3 wi_1 [15:0] $end
+$var wire 16 4 out_8 [15:0] $end
+$var wire 16 5 out_7 [15:0] $end
+$var wire 16 6 out_6 [15:0] $end
+$var wire 16 7 out_5 [15:0] $end
+$var wire 16 8 out_4 [15:0] $end
+$var wire 16 9 out_3 [15:0] $end
+$var wire 16 : out_2 [15:0] $end
+$var wire 16 ; out_1 [15:0] $end
+$scope module a1 $end
+$var wire 16 < in_1 [15:0] $end
+$var wire 1 , sel_1 $end
+$var wire 16 = out_2 [15:0] $end
+$var wire 16 > out_1 [15:0] $end
+$upscope $end
+$scope module a2_0 $end
+$var wire 16 ? in_1 [15:0] $end
+$var wire 1 + sel_1 $end
+$var wire 16 @ out_2 [15:0] $end
+$var wire 16 A out_1 [15:0] $end
+$upscope $end
+$scope module a2_1 $end
+$var wire 16 B in_1 [15:0] $end
+$var wire 1 + sel_1 $end
+$var wire 16 C out_2 [15:0] $end
+$var wire 16 D out_1 [15:0] $end
+$upscope $end
+$scope module a3_0 $end
+$var wire 16 E in_1 [15:0] $end
+$var wire 1 * sel_1 $end
+$var wire 16 F out_2 [15:0] $end
+$var wire 16 G out_1 [15:0] $end
+$upscope $end
+$scope module a3_1 $end
+$var wire 16 H in_1 [15:0] $end
+$var wire 1 * sel_1 $end
+$var wire 16 I out_2 [15:0] $end
+$var wire 16 J out_1 [15:0] $end
+$upscope $end
+$scope module a3_2 $end
+$var wire 16 K in_1 [15:0] $end
+$var wire 1 * sel_1 $end
+$var wire 16 L out_2 [15:0] $end
+$var wire 16 M out_1 [15:0] $end
+$upscope $end
+$scope module a3_3 $end
+$var wire 16 N in_1 [15:0] $end
+$var wire 1 * sel_1 $end
+$var wire 16 O out_2 [15:0] $end
+$var wire 16 P out_1 [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 P
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+b1 G
+b0 F
+b1 E
+b0 D
+b0 C
+b0 B
+b1 A
+b0 @
+b1 ?
+b1 >
+b0 =
+b1 <
+b1 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b1 3
+b0 2
+b1 1
+b0 0
+b0 /
+b0 .
+b1 -
+0,
+0+
+0*
+b1 )
+b1 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#1
+b0 (
+b0 ;
+b0 G
+b0 1
+b0 A
+b0 E
+b1 $
+b1 7
+b1 M
+b0 3
+b0 >
+b0 ?
+b1 /
+b1 D
+b1 K
+b1 2
+b1 =
+b1 B
+1,
+#2
+b1 &
+b1 9
+b1 J
+b1 0
+b1 @
+b1 H
+b0 $
+b0 7
+b0 M
+b1 3
+b1 >
+b1 ?
+b0 /
+b0 D
+b0 K
+b0 "
+b0 5
+b0 P
+b0 2
+b0 =
+b0 B
+b0 .
+b0 C
+b0 N
+0,
+1+
+#3
+b0 &
+b0 9
+b0 J
+b0 0
+b0 @
+b0 H
+b1 "
+b1 5
+b1 P
+b0 3
+b0 >
+b0 ?
+b1 .
+b1 C
+b1 N
+b1 2
+b1 =
+b1 B
+1,
+#4
+b1 '
+b1 :
+b1 F
+b1 1
+b1 A
+b1 E
+b1 3
+b1 >
+b1 ?
+b0 "
+b0 5
+b0 P
+b0 2
+b0 =
+b0 B
+b0 .
+b0 C
+b0 N
+b0 !
+b0 4
+b0 O
+0,
+0+
+1*
+#5
+b0 '
+b0 :
+b0 F
+b0 1
+b0 A
+b0 E
+b1 #
+b1 6
+b1 L
+b0 3
+b0 >
+b0 ?
+b1 /
+b1 D
+b1 K
+b1 2
+b1 =
+b1 B
+1,
+#6
+b1 %
+b1 8
+b1 I
+b1 0
+b1 @
+b1 H
+b0 #
+b0 6
+b0 L
+b1 3
+b1 >
+b1 ?
+b0 /
+b0 D
+b0 K
+b0 !
+b0 4
+b0 O
+b0 2
+b0 =
+b0 B
+b0 .
+b0 C
+b0 N
+0,
+1+
+#7
+b0 %
+b0 8
+b0 I
+b0 0
+b0 @
+b0 H
+b1 !
+b1 4
+b1 O
+b0 3
+b0 >
+b0 ?
+b1 .
+b1 C
+b1 N
+b1 2
+b1 =
+b1 B
+1,

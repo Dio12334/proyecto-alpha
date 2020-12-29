@@ -1,0 +1,14 @@
+# our local base image
+FROM ubuntu 
+
+RUN apt-get update
+
+WORKDIR /home
+COPY ./bin/* . 
+VOLUME /home/first
+VOLUME /home/second
+RUN chmod 777 /home/first
+RUN chmod 777 /home/second
+RUN chmod 777 battleship_server
+
+CMD ["./battleship_server"]
